@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+<%- include('partials/header') %>
+
+    <main class="pt-32 pb-20">
+        <!-- Hero Header -->
+        <header class="px-8 md:px-12 mb-16">
+            <div class="max-w-7xl mx-auto">
+                <div class="flex items-end gap-4 mb-4">
+                    <div class="h-1 w-24 bg-primary"></div>
+                    <span
+                        class="font-headline font-bold tracking-widest text-primary uppercase text-sm">Portfolio</span>
+                </div>
+                <h1
+                    class="font-headline text-6xl md:text-8xl font-black tracking-tighter uppercase leading-[0.9] text-on-surface max-w-4xl">
+                    Defining the <br /><span class="text-outline-variant">Modern Skyline.</span>
+                </h1>
+            </div>
+        </header>
+        <!-- Filters Section -->
+        <section class="bg-surface-container-low mb-12">
+            <div class="max-w-7xl mx-auto px-8 md:px-12 py-8 flex flex-wrap items-center justify-between gap-6">
+                <div class="flex flex-wrap gap-4 font-headline text-sm font-bold tracking-widest uppercase">
+                    <button class="px-8 py-3 bg-inverse-surface text-white rounded-full">All Projects</button>
+                    <button
+                        class="px-8 py-3 text-on-surface-variant hover:bg-surface-container-highest transition-colors rounded-full">Commercial</button>
+                    <button
+                        class="px-8 py-3 text-on-surface-variant hover:bg-surface-container-highest transition-colors rounded-full">Industrial</button>
+                    <button
+                        class="px-8 py-3 text-on-surface-variant hover:bg-surface-container-highest transition-colors rounded-full">Infrastructure</button>
+                </div>
+                <div class="flex items-center gap-2 border-b-2 border-outline-variant pb-1">
+                    <span class="material-symbols-outlined text-outline">search</span>
+                    <input
+                        class="bg-transparent border-none focus:ring-0 font-headline text-sm tracking-widest uppercase placeholder:text-outline/50"
+                        placeholder="SEARCH PROJECTS" type="text" />
+                </div>
+            </div>
+        </section>
+        <!-- Projects Grid -->
+        <section class="px-8 md:px-12 max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 bg-surface-container">
+                <!-- Project Card 1 -->
+                <div class="group relative aspect-[4/5] overflow-hidden bg-stone-200">
+                    <img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
+                        data-alt="Modern geometric skyscraper with glass facade reflecting blue sky, brutalist concrete elements, sharp architectural lines"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAi-9sUgG2tjiR0zEvQkMNQ_lCl0hWQXKovdkhYtXqyRJ7EV4wdxDa6V_0oaiqCKLj4_xTR5f_VRBiP4rBA38_UEjNqKp8dcmkKFfIIE9eCr2pfsRtBqVGCEgD6L12Sp3rd3-ma-IloIAg2Q_4KK471qf_srDqgOJvdWAytZ9odd6X0WY74pDxYh3WJ3qcxxwZapAZsu5SlNchNCWlCSfexBVNslIGnysNwg_CryxLgT5dQktbeaBqVMnnBDZ8yFBF0lUKK-3X6Lzs" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-transparent to-transparent opacity-60 group-hover:opacity-90 transition-opacity">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 p-8 w-full translate-y-8 group-hover:translate-y-0 transition-transform duration-500">
+                        <div class="font-headline font-black text-3xl text-white uppercase tracking-tighter mb-1">
+                            Titanium Plaza</div>
+                        <div class="font-label text-primary-container font-bold tracking-widest uppercase text-xs mb-4">
+                            Chicago, IL</div>
+                        <div class="overflow-hidden h-0 group-hover:h-auto transition-all duration-500">
+                            <p class="text-surface-container-low text-sm font-light mb-6 line-clamp-3">
+                                A 45-story mixed-use development featuring advanced steel fabrication and
+                                carbon-neutral
+                                glass systems.
+                            </p>
+                            <button
+                                class="w-full py-4 bg-primary-container text-on-primary-container rounded-full font-headline font-bold uppercase tracking-widest hover:bg-white transition-colors">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="group relative aspect-[4/5] overflow-hidden bg-stone-300">
+                    <img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
+                        data-alt="Construction site of a massive industrial facility with heavy steel trusses and high-vis safety equipment visible"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQMU3Gpl2woJO7hUOf3vZqS-gAzfAQB6sWLs6oyrIPNdnM_b0IByPoY1krRsCghomVcIlejzV2VWKP28AWNhjoNj_DEyuBnO3COCN0NoOD_3iZdvxJuaNr3ZW6YLUfwWkguUjKNu9tRjvgN7AIQdugSI5-4Cg2AdeINxQfGcNH4Q0iCoReTqEAz-mviTq1_VcTH49SJKaOTqoWvi20e3hBbhHXgaVbhY_CIRxrTiaoCQOYcIt3gybRlFxRHB4nneEA9W58sTfAKzU" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-transparent to-transparent opacity-60 group-hover:opacity-90 transition-opacity">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 p-8 w-full translate-y-8 group-hover:translate-y-0 transition-transform duration-500">
+                        <div class="font-headline font-black text-3xl text-white uppercase tracking-tighter mb-1">
+                            Nexus
+                            Logistics</div>
+                        <div class="font-label text-primary-container font-bold tracking-widest uppercase text-xs mb-4">
+                            Houston, TX</div>
+                        <div class="overflow-hidden h-0 group-hover:h-auto transition-all duration-500">
+                            <p class="text-surface-container-low text-sm font-light mb-6 line-clamp-3">
+                                Automated distribution hub spanning 1.2 million square feet with reinforced
+                                high-load
+                                flooring.
+                            </p>
+                            <button
+                                class="w-full py-4 bg-primary-container text-on-primary-container rounded-full font-headline font-bold uppercase tracking-widest hover:bg-white transition-colors">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="group relative aspect-[4/5] overflow-hidden bg-stone-200">
+                    <img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
+                        data-alt="Close up of raw architectural concrete and structural steel beams against a harsh clear blue sky"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkp00kx42Otzylri-a5iMPKqpZhyaEPWSu3w9MJ9PlHreK32DGK_2Fp36-HtSHacBWlN7ffJTFt3Z1wQMXx1MGOv76FLgzKTrlmiC1JR9ZWQb3oK0i1FK6iLyoiX6NjHkPOkBl1um-3X70ouMirSa2J0kjB_ZyoFw52AX-TQOMfzIq5P_mzjapUvxa-gWL39BjLqFA4iQPkzXEv8U0a98UX8N1NlemBCS1O9-WiRW-cwJPIjGjG7355NddvvK90k7zcK_LgV94CB8" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-transparent to-transparent opacity-60 group-hover:opacity-90 transition-opacity">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 p-8 w-full translate-y-8 group-hover:translate-y-0 transition-transform duration-500">
+                        <div class="font-headline font-black text-3xl text-white uppercase tracking-tighter mb-1">
+                            Foundry Labs</div>
+                        <div class="font-label text-primary-container font-bold tracking-widest uppercase text-xs mb-4">
+                            Seattle, WA</div>
+                        <div class="overflow-hidden h-0 group-hover:h-auto transition-all duration-500">
+                            <p class="text-surface-container-low text-sm font-light mb-6 line-clamp-3">
+                                Precision-engineered research facility utilizing brutalist design principles and
+                                high-spec HVAC systems.
+                            </p>
+                            <button
+                                class="w-full py-4 bg-primary-container text-on-primary-container rounded-full font-headline font-bold uppercase tracking-widest hover:bg-white transition-colors">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 4 -->
+                <div class="group relative aspect-[4/5] overflow-hidden bg-stone-300">
+                    <img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
+                        data-alt="Modern architectural interior with sweeping concrete arches and natural light flooding through skylights"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZ5CLfY8pP_b3SQep-J8AemotECXzj8vYi4Larzkck8An5ARqQ1A5kgnl45yI4RUig6tbCJbeHneym5H-1igh2lyV4K4Qszxtf1tCMN1Uuq1exSo8E3auRfyhSFXS0w2Sdzj3Io0BgGoECsf_cwD3A6r2Y4zcyeyGugJGnHoPjwneiaEBR8nrj_cT5eRH7I2af9ahl4ONSYmeF8hC5wd1Vnw3XVMUk-wL25Q3vrigo4TcCBRS2WYyvZ1H4GEv28nnhD5fjNqGqTF0" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-transparent to-transparent opacity-60 group-hover:opacity-90 transition-opacity">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 p-8 w-full translate-y-8 group-hover:translate-y-0 transition-transform duration-500">
+                        <div class="font-headline font-black text-3xl text-white uppercase tracking-tighter mb-1">
+                            The
+                            Atrium</div>
+                        <div class="font-label text-primary-container font-bold tracking-widest uppercase text-xs mb-4">
+                            Denver, CO</div>
+                        <div class="overflow-hidden h-0 group-hover:h-auto transition-all duration-500">
+                            <p class="text-surface-container-low text-sm font-light mb-6 line-clamp-3">
+                                Commercial atrium featuring custom-cast concrete structures and sustainable water
+                                reclamation.
+                            </p>
+                            <button
+                                class="w-full py-4 bg-primary-container text-on-primary-container rounded-full font-headline font-bold uppercase tracking-widest hover:bg-white transition-colors">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 5 -->
+                <div class="group relative aspect-[4/5] overflow-hidden bg-stone-200">
+                    <img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
+                        data-alt="Wide shot of a suspension bridge under construction at sunset, intricate cable networks and pylons"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOcYc_srwvDtDQ38YS8aA7THHTeYJ31SkbPgGJydDl0T7bivE-oOyo8Gof1ZJBlVgLodw2bGh47tek_T34pY6h4UzJp01pljRiTQVePeg4bc9eFlnNxX_ZkjQqzN_t6do2sI56I19v3XUmjtuhTQc4lcIGiqbNPd52IFXsD38ZDN2tlc-17Em7ru8OJmgLgX-IayTYWPfaPXb0wOtli5yattCpSJjkGNzmWYyDvrP-eTcdn6CaKz008J2T3R5LAJimUKIQnRyrDcM" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-transparent to-transparent opacity-60 group-hover:opacity-90 transition-opacity">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 p-8 w-full translate-y-8 group-hover:translate-y-0 transition-transform duration-500">
+                        <div class="font-headline font-black text-3xl text-white uppercase tracking-tighter mb-1">
+                            Delta
+                            Bridge</div>
+                        <div class="font-label text-primary-container font-bold tracking-widest uppercase text-xs mb-4">
+                            Savannah, GA</div>
+                        <div class="overflow-hidden h-0 group-hover:h-auto transition-all duration-500">
+                            <p class="text-surface-container-low text-sm font-light mb-6 line-clamp-3">
+                                Major infrastructure project involving high-tension cable suspension and deep-water
+                                pylon engineering.
+                            </p>
+                            <button
+                                class="w-full py-4 bg-primary-container text-on-primary-container rounded-full font-headline font-bold uppercase tracking-widest hover:bg-white transition-colors">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 6 -->
+                <div class="group relative aspect-[4/5] overflow-hidden bg-stone-300">
+                    <img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
+                        data-alt="Abstract view of modern office building with yellow structural accents and dark steel panels"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2TGFxzlDlZaEsCe0UfAIM-L-AANB8YLWFaFJzfaacZ8-Mq18O9BmR05uy9eNtLfE9uXB2IizOd6m0INwwEstKZLkExTmP0KM62X1EawWScGeDQMm4KCxIEXbAtUHS-aoQpqVfu-sC9c9IG0OEcNBEIlqG4H1zK17JXda3TUHu77HF0cA2ty5PS_Xc9zjzdudv_IaK1swidk-FQH18Bbq_8XQXC3wD-thH6gjdfLPzU7SOYOR3ZCU6Bti8nvJaJBWFsYj0Qf21Rrg" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-transparent to-transparent opacity-60 group-hover:opacity-90 transition-opacity">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 p-8 w-full translate-y-8 group-hover:translate-y-0 transition-transform duration-500">
+                        <div class="font-headline font-black text-3xl text-white uppercase tracking-tighter mb-1">
+                            Apex
+                            Heights</div>
+                        <div class="font-label text-primary-container font-bold tracking-widest uppercase text-xs mb-4">
+                            Phoenix, AZ</div>
+                        <div class="overflow-hidden h-0 group-hover:h-auto transition-all duration-500">
+                            <p class="text-surface-container-low text-sm font-light mb-6 line-clamp-3">
+                                High-performance corporate headquarters designed for thermal efficiency in extreme
+                                climates.
+                            </p>
+                            <button
+                                class="w-full py-4 bg-primary-container text-on-primary-container rounded-full font-headline font-bold uppercase tracking-widest hover:bg-white transition-colors">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Load More Section -->
+            <div class="mt-16 text-center">
+                <button
+                    class="group relative inline-flex items-center gap-4 px-12 py-6 overflow-hidden rounded-full border-2 border-primary-container bg-surface-container-lowest hover:bg-primary-container transition-colors">
+                    <div class="absolute inset-0 hazard-gradient opacity-5 group-hover:opacity-10 transition-opacity">
+                    </div>
+                    <span
+                        class="relative font-headline font-black text-xl tracking-tighter uppercase text-on-surface">Load
+                        More Architecture</span>
+                    <span
+                        class="material-symbols-outlined relative group-hover:translate-x-2 transition-transform text-on-surface">arrow_forward</span>
+                </button>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <%- include('partials/footer.ejs') %>
+        </body>
+
+</html>
